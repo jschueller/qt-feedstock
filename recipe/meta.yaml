@@ -37,7 +37,7 @@ build:
 
 requirements:
   build:
-    - cmake
+    - cmake <=3.18
     - ninja
     - {{ compiler('cxx') }}
     - {{ compiler('c') }}
